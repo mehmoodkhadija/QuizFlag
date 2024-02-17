@@ -6,8 +6,9 @@ const questions = [
         id: 1,
         image: "https://cdn.countryflags.com/thumbs/afghanistan/flag-400.png",
         answerOptions: [
-            { answerText: 'Kabul', isCorrect: true },
+         
             { answerText: 'Tehran', isCorrect: false },
+            { answerText: 'Kabul', isCorrect: true },
             { answerText: 'Islamabad', isCorrect: false },
             { answerText: 'Dhaka', isCorrect: false },
         ],
@@ -16,9 +17,10 @@ const questions = [
         id: 2,
         image: "https://cdn.countryflags.com/thumbs/australia/flag-400.png",
         answerOptions: [
-            { answerText: 'Canberra', isCorrect: true },
+            
             { answerText: 'Wellingtona', isCorrect: false },
             { answerText: 'Suva', isCorrect: false },
+            { answerText: 'Canberra', isCorrect: true },
             { answerText: 'Port Moresby', isCorrect: false },
         ],
     },
@@ -26,8 +28,9 @@ const questions = [
         id: 3,
         image: "https://cdn.countryflags.com/thumbs/brazil/flag-400.png",
         answerOptions: [
-            { answerText: 'Brasília', isCorrect: true },
+          
             { answerText: 'Lima', isCorrect: false },
+            { answerText: 'Brasília', isCorrect: true },
             { answerText: 'Santiago', isCorrect: false },
             { answerText: 'Bogotá', isCorrect: false },
         ],
@@ -36,9 +39,10 @@ const questions = [
         id: 4,
         image: "https://cdn.countryflags.com/thumbs/canada/flag-400.png",
         answerOptions: [
-            { answerText: 'Ottawa ', isCorrect: true },
+           
             { answerText: 'Washington D.C.', isCorrect: false },
             { answerText: 'Mexico City', isCorrect: false },
+            { answerText: 'Ottawa ', isCorrect: true },
             { answerText: 'Havana', isCorrect: false },
         ],
     },
@@ -58,9 +62,10 @@ const questions = [
         id: 6,
         image: "https://cdn.countryflags.com/thumbs/france/flag-400.png",
         answerOptions: [
-            { answerText: 'Paris', isCorrect: true },
+    
             { answerText: 'Rome', isCorrect: false },
             { answerText: 'Berlin', isCorrect: false },
+            { answerText: 'Paris', isCorrect: true },
             { answerText: 'Madrid', isCorrect: false },
         ],
     },
@@ -80,19 +85,21 @@ const questions = [
         id: 8,
         image: "https://cdn.countryflags.com/thumbs/india/flag-400.png",
         answerOptions: [
-            { answerText: 'New Delhi ', isCorrect: true },
+          ,
             { answerText: 'Islamabad', isCorrect: false },
             { answerText: 'Kathmandu', isCorrect: false },
             { answerText: 'Colombo', isCorrect: false },
+            { answerText: 'New Delhi ', isCorrect: true }
         ],
     },
     {
         id: 9,
         image: "https://cdn.countryflags.com/thumbs/japan/flag-400.png",
         answerOptions: [
-            { answerText: 'Tokyo ', isCorrect: true },
+        
             { answerText: 'Seoul', isCorrect: false },
             { answerText: 'Beijing', isCorrect: false },
+            { answerText: 'Tokyo ', isCorrect: true },
             { answerText: 'Port Moresby', isCorrect: false },
         ],
     },
